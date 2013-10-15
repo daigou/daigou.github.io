@@ -4,11 +4,16 @@
 -------------------------------------------------------------- */
 #branding {}
 /* logo */
-#site-title {padding:10px 0;height:80px;width: 960px;margin: 0 auto;position:relative;}
+#site-title {padding:10px 0;height:100px;width: 960px;margin: 0 auto;position:relative;}
 #site-title .logo {display:inline-block;*display:inline;zoom:1;line-height:900px;overflow:hidden;font-size:0;
-	background-image: url(img/logo.jpg);height:70px;width:707px;position:relative;}
+	background-image: url(img/logo.jpg);height:70px;width:850px;position:relative;}
 #site-title .right {position:absolute;top:10px;right:10px;}
 
+#site-title .qq {
+	display:inline-block;*display:inline;zoom:1;line-height:900px;overflow:hidden;font-size:0;
+	background:url(http://img04.taobaocdn.com/tps/i4/T1UPFAXnNfXXXXXXXX-130-60.gif) no-repeat 0 0;
+	width: 67px; height: 20px; position: absolute; top: 65px;left:190px;
+}
 /* 主导航 */
 .main_nav {margin-bottom:40px;}
 .main_nav ul {width:960px;margin:0 auto;padding:4px 0;font-size:14px;overflow:hidden;*zoom:1;list-style-type:none;}
